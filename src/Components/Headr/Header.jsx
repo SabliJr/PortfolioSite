@@ -7,7 +7,6 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import Logo from "../../Assetes/__Logo.svg";
 import HeroBtn from "../../Assetes/ReadMore.svg";
-// import HeroImg from "../../Assetes/HeroTitle.svg";
 
 import SVGComponent from "../SVG/Svg";
 
