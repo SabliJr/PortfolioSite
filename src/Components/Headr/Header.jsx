@@ -5,8 +5,8 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-import Logo from "../../Assetes/__Logo.svg";
-import HeroBtn from "../../Assetes/ReadMore.svg";
+import Logo from "../SVG/Logo.svg";
+import HeroBtn from "../SVG/ReadMore.svg";
 
 import SVGComponent from "../SVG/Svg";
 
@@ -88,7 +88,6 @@ const Header = () => {
       <article className='heroArticle'>
         <div className='heroFirstDiv'>
           <SVGComponent className='heroImg' />
-          {/* <img className='heroImg' src={HeroImg} alt='HeroImg' /> */}
           <div className='heroSecDiv'>
             <p className='heroP'>
               Hey there, my name is Sabli Jr. I’m front-end software engineer &

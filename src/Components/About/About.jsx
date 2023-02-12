@@ -6,7 +6,7 @@ import css from "../../Assetes/CSS.png";
 import Js from "../../Assetes/JS.png";
 import React from "../../Assetes/React.png";
 import Git from "../../Assetes/Git.png";
-import Adobe from "../../Assetes/AB.png";
+import TypeScript from "../../Assetes/Typescrip.png";
 
 const About = () => {
   return (
@@ -61,7 +61,7 @@ const About = () => {
               <p>Git</p>
             </div>
             <div className='iconImgDiv'>
-              <img src={Adobe} alt='' />
+              <img src={TypeScript} alt='' />
               <p>Adobe Suit</p>
             </div>
           </div>
