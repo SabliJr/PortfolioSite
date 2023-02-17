@@ -5,7 +5,7 @@
 .iconPosition {
     position: fixed;
     bottom: 40px;
-    right: 25px;
+    right: 9rem;
     z-index: 20;
 }
 
@@ -48,13 +48,34 @@
 }
 
 @media screen and (max-width: 1300px) {
-    @media screen and (max-width: 800px) {
-        .iconStyle {
-            height: 30px;
-            width: 30px;
-
+    @media screen and (max-width: 900px) {
+        .iconPosition {
+            bottom: 40px;
+            right: 1rem;
+            z-index: 20;
         }
 
-        @media screen and (max-width: 580px) {}
+
+        @media screen and (max-width: 800px) {
+            .iconStyle {
+                height: 30px;
+                width: 30px;
+
+            }
+
+            .iconPosition {
+                bottom: 40px;
+                right: 1rem;
+                z-index: 20;
+            }
+
+            @media screen and (max-width: 580px) {
+                .iconPosition {
+                    bottom: 40px;
+                    right: .5rem;
+                    z-index: 20;
+                }
+            }
+        }
     }
 }

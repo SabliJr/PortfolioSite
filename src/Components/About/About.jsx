@@ -62,7 +62,7 @@ const About = () => {
             </div>
             <div className='iconImgDiv'>
               <img src={TypeScript} alt='' />
-              <p>Adobe Suit</p>
+              <p>TypeScript</p>
             </div>
           </div>
         </div>
